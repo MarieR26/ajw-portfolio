@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
 
-
-
 :root {
   /* Colors */
   --first-color: hsl(353, 100%, 65%);
@@ -9,89 +7,92 @@
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: #fff;
-  --cvr-red:#a61d18;
-  --cvr-green:#aecfc9;
-  --cvr-light-green:#d2e2df;
+  --cvr-red: #a61d18;
+  --cvr-green: #aecfc9;
+  --cvr-light-green: #d2e2df;
 
   /* Font and Tupography */
-  --body-font: font-family: 'Rubik', sans-serif;
-  --h1-font-size:2.25rem;
-  --h2-font-size:1.5rem;
-  --h3-font-size:1.25rem;
-  --normal-font-size:1rem;
-  --small-font-size:.875rem;
-  --smaller-font-size:.813rem;
-  
+  --body-font: "Rubik", sans-serif;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
 
   /* Font Weight */
 
-  --font-medium:500;
-  --font-semibold:600;
-  --font-bold:700;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
 
   /* box shadow */
-  --shadow:0px 5px 20px 0px rgb(69 67 96 / 10%);
+  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
 
   /* border radius */
-  --border-radius:20px;
+  --border-radius: 20px;
 }
 /* responsive typography */
-@media screen and (max-width: 1024px){
-  :root{
-   --h1-font-size:1.75rem;
-  --h2-font-size:1.25rem;
-  --h3-font-size:1rem;
-  --normal-font-size:0.938rem;
-  --small-font-size:.813rem;
-  --smaller-font-size:.75rem;
-
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
   }
 }
 
 /* Base */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body,button,input,textarea{
+body,
+button,
+input,
+textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
 
-body{
+body {
   background: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semibold);
   line-height: 1.2;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
   outline: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
@@ -99,23 +100,23 @@ img{
 
 /* reusable css classes */
 
-.container{
+.container {
   max-width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0auto;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.section{
+.section {
   padding-top: 7rem;
   padding-bottom: 2rem;
 }
 
-.section__title{
+.section__title {
   font-size: var(--h1-font-size);
   margin-left: 0.875rem;
   font-weight: var(--font-bold);
@@ -123,39 +124,38 @@ img{
   margin-bottom: 3.75rem;
 }
 
-.section__title::before{
-content: '';
-/* background: url(./assets/anders-jilden-Sc5RKXLBjGg-unsplash.jpg); */
-background: url(./assets/dots-bg.svg);
-height: 2.25rem;
-width: 2.25rem;
-position: absolute;
-left: -0.875rem;
-top: -0.875rem;
+.section__title::before {
+  content: "";
+  /* background: url(./assets/anders-jilden-Sc5RKXLBjGg-unsplash.jpg); */
+  background: url(./assets/dots-bg.svg);
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
 }
 
-.btn{
+.btn {
   padding: 0.6rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
   box-shadow: 0 0 1px rgb(0 0 0 /0%);
   border: 1px solid transparent;
   color: #fff;
-  background:var(--cvr-red);
+  background: var(--cvr-red);
   font-weight: var(--font-bold);
 }
 
-
-.btn:hover{
+.btn:hover {
   animation: button-push 0.3s linear 1;
 }
 
-@keyframes button-push{
-  50%{
+@keyframes button-push {
+  50% {
     transform: scale(0.8);
   }
 
-  100%{
+  100% {
     transform: scale(1);
   }
 }

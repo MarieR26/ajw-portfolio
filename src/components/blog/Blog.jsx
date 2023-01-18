@@ -16,8 +16,8 @@ const Blog = () => {
               className="video"
               width=""
               height=""
-              frameborder="0"
-              allowfullscreen="allowfullscreen"
+              frameBorder="0"
+              allowFullScreen="allowFullScreen"
             ></iframe>
             {/* <Example videoId="9ZludpemynY" /> */}
           </div>
@@ -33,8 +33,8 @@ const Blog = () => {
               src="https://www.youtube.com/embed/TuWgdgdWtd4"
               width=""
               height=""
-              frameborder="0"
-              allowfullscreen="allowfullscreen"
+              frameBorder="0"
+              allowFullScreen="allowFullScreen"
             ></iframe>
           </div>
           <h3 className="blog__title">
@@ -51,8 +51,8 @@ const Blog = () => {
               src="https://www.youtube.com/embed/ewRoNYSBYOA"
               width=""
               height=""
-              frameborder="0"
-              allowfullscreen="allowfullscreen"
+              frameBorder="0"
+              allowFullScreen="allowFullScreen"
             ></iframe>
           </div>
           <h3 className="blog__title">
