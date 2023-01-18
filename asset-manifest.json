@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ajw-portfolio/static/css/main.c187db17.css",
+    "main.css": "/ajw-portfolio/static/css/main.08786d0e.css",
     "main.js": "/ajw-portfolio/static/js/main.813c9a5a.js",
-    "static/media/anders-jilden-Sc5RKXLBjGg-unsplash.jpg": "/ajw-portfolio/static/media/anders-jilden-Sc5RKXLBjGg-unsplash.cf130a427ee8789017a6.jpg",
+    "static/media/background.JPG": "/ajw-portfolio/static/media/background.cf130a427ee8789017a6.JPG",
     "static/media/austin.jpg": "/ajw-portfolio/static/media/austin.4ac9b8bfed9c4c1d7936.jpg",
     "static/media/avatar-3.svg": "/ajw-portfolio/static/media/avatar-3.605f4f9b2d464df4897817a6278e52d7.svg",
     "static/media/avatar-2.svg": "/ajw-portfolio/static/media/avatar-2.dbaf15ff9b5d68a39d1b24521fb12640.svg",
@@ -10,11 +10,11 @@
     "static/media/logo.webp": "/ajw-portfolio/static/media/logo.2b6c8b33265f819147fd.webp",
     "static/media/dots-bg.svg": "/ajw-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/ajw-portfolio/index.html",
-    "main.c187db17.css.map": "/ajw-portfolio/static/css/main.c187db17.css.map",
+    "main.08786d0e.css.map": "/ajw-portfolio/static/css/main.08786d0e.css.map",
     "main.813c9a5a.js.map": "/ajw-portfolio/static/js/main.813c9a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c187db17.css",
+    "static/css/main.08786d0e.css",
     "static/js/main.813c9a5a.js"
   ]
 }
