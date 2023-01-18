@@ -1,0 +1,130 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.about__container {
+  grid-template-columns: 2fr 6fr;
+  column-gap: 1.875rem;
+}
+
+.about__container img {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.about__info {
+  padding: 1.875rem;
+  width: 90%;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.about__info::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid var(--container-color);
+  position: absolute;
+  left: -0.93rem;
+  top: 20%;
+}
+
+.about__description {
+  text-align: justify;
+}
+
+.line {
+  width: 80%;
+  height: 2px;
+  background: var(--cvr-green);
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+.about__boxes {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.8rem;
+  margin-top: 4.25rem;
+}
+
+.about__box {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.about__icon {
+  font-size: var(--h1-font-size);
+  color: #dedeea;
+}
+
+.about__title {
+  font-size: 1.875rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding-top: 3rem;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+
+  .about__container img {
+    width: 500px;
+    border-radius: var(--border-radius);
+  }
+
+  .about__info {
+    width: 500px;
+  }
+
+  .about__info::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 49%;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__container img {
+    justify-self: center;
+    width: 300px;
+    border-radius: var(--border-radius);
+  }
+
+  .about__info {
+    width: 300px;
+    justify-self: center;
+  }
+
+  .about__boxes {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+    margin-top: 4.25rem;
+  }
+}
