@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 // import Austin from "../../assets/avatar-1.svg";
-import Austin from "../../assets/austin.jpg";
+// import Austin from "../../assets/austin.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
 

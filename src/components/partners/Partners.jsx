@@ -1,8 +1,8 @@
 import React from "react";
 import "./Partners.css";
 import image1 from "../../assets/avatar-1.svg";
-import image2 from "../../assets/avatar-1.svg";
-import image3 from "../../assets/avatar-1.svg";
+import image2 from "../../assets/avatar-2.svg";
+import image3 from "../../assets/avatar-3.svg";
 import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";

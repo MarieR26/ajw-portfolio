@@ -1,5 +1,6 @@
 .home {
   position: relative;
+  width: 100%;
   min-height: 107vh;
   background-image: url(../../assets/anders-jilden-Sc5RKXLBjGg-unsplash.jpg);
   background-repeat: no-repeat;
